@@ -1,0 +1,134 @@
+/*
+  Christopher Nevers - Christopher_Nevers@student.uml.edu
+  COMP 4610: GUI Programming I - Assignment 4
+  Created: 10/09/2018
+  File: style.css
+  This file is used to style my home page for assignment 2.
+ */
+
+/* Mobile First CSS Styling below */
+
+/*
+  Wrapper for the page's content
+  Purpose: To center all inner content
+*/
+.wrapper {
+  width: 80%;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+/* All sections are grids with two per row */
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+/*
+  Wraps all text in the header
+  Purpose: To vertically align text in header div
+*/
+.header-text-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+/*
+  Purpose: To style the large text in the header
+*/
+.header-text-lg {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 0 0;
+}
+
+/*
+  Purpose: To style the small text in the header
+*/
+.header-text-sm {
+  margin: 0 0;
+  font-weight: lighter;
+}
+
+/*
+  Purpose: To vertically align the header photo and make it a circle
+*/
+.header-photo {
+  max-height: 160px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+/*
+  Purpose: Sets the background and text color of the header
+*/
+.header {
+  background: linear-gradient(to right, #1a2129, #474747);
+  padding: 20px;
+  color: white;
+}
+
+/*
+  Purpose: Center all text in page sections
+*/
+.section {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*
+  Purpose - Add spacing around the paragraphs to increase readability.
+*/
+.section p {
+  padding: 20px 20px;
+}
+
+/*
+  Purpose: To space the assignment links in the coursework section
+*/
+.coursework a {
+  display: block;
+  padding-bottom: 5px;
+}
+
+/*
+  Purpose: To make the text purrty ;)
+*/
+h2 {
+  font-weight: lighter;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+/*
+  Purpose - Get rid of default hardcoded pixel width of audio element
+*/
+audio {
+  width: 100%;
+}
+
+/*
+  Purpose - Put white background box around assignments
+*/
+.assignment-links {
+  display: grid;
+  border: 1px solid black;
+  background: white;
+  padding-bottom: 15px;
+}
+
+/*
+  Purpose - Space the links and do not add underlines
+*/
+.assignment-links a {
+  padding-top: 15px;
+  text-decoration: none;
+}
