@@ -1,74 +1,75 @@
-<!-- Christopher Nevers -->
-<!-- Christopher_Nevers@student.uml.edu -->
-<!-- UML student in COMP 4610 GUI Programming I -->
-<!-- Created: 10/03/2018 -->
-<!-- File: index.html  -->
-<!-- COMP 4610: Assignment 5 -->
-<!-- This webpage serves as an introduction to myself and an index for all future coursework. -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Christopher Nevers</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Don't have any js for this page -->
-    <!-- <script src="a2/script.js"></script> -->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <!-- Photo of myself in header -->
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chris Nevers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300|Lato:300" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Intro"">Intro</a></li>
+                <li><a href="#GUI"">GUI</a></li>
+                <li><a href="#Projects"">Projects</a></li>
+                <li><a href="#Music"">Music</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="info">
         <img src="assets/img/me.jpg" class="header-photo" alt="me"/>
         <div class="header-text-wrapper">
-          <p class="header-text-lg">Christopher Nevers</p>
-          <p class="header-text-sm">Computer Science</p>
-          <p class="header-text-sm">UMass Lowell</p>
+            <p class="header-text-lg">Christopher Nevers</p>
+            <p class="header-text-sm">Computer Science</p>
+            <p class="header-text-sm">UMass Lowell</p>
+            <p class="header-text-xs email">Christopher_Nevers@student.uml.edu</p>
+            <div class="icon-row">
+                <a href="https://www.linkedin.com/in/christophernevers/"><img class="icon" src="assets/img/linkedin.png"></a>
+                <a href="https://www.github.com/chrisnevers"><img class="icon" src="assets/img/github.png"></a>
+                <a href="https://www.soundcloud.com/chrisnevers"><img class="icon" src="assets/img/soundcloud.png"></a>
+            </div>
         </div>
-      </header>
-      <div class="grid">
-        <div class="section">
-          <h2>Introduction</h2>
-          <!-- A brief introduction of myself -->
-          <p>
+    </div>
+    <div class="section">
+        <h1><span id="Intro">Intro</span></h1>
+        <p>
             Hi! My name is Chris and I am from Lynn, Massachusets.
             I am currently enrolled in GUI Programming I.
             I enjoy web development and programming language design.
-            I love Adam Sandler movies, Seinfeld, Family Guy, and The Office.
+            I love Adam Sandler movies, Seinfeld, Always Sunny, Family Guy, and The Office.
             I also enjoy writing and playing music; I play guitar and piano.
-            Take a listen below, if you'd like (:
-          </p>
-        <!-- An audio tag that will play my song -->
-        <audio controls>
-          <source src="assets/audio/new40.mp3" type="audio/mpeg">
-        </audio>
-        </div>
-        <div class="section coursework">
-          <h2>Coursework</h2>
-          <p>
+            I have experience with C, C++, OCaml, Java, Javascript, and Python.
+            Recently, I've been more interested in functional programming and will
+            soon become completely insufferable 😉 .
+        </p>
+    </div>
+    <div id="GUI" class="section">
+        <h1>GUI</h1>
+        <p>
             Below you can find links to the coursework in this class.
-          </p>
-          <!-- Links for all future assignments -->
-          <div class="assignment-links">
+        </p>
+        <!-- Links for all future assignments -->
+        <div class="assignment-links">
             <a href="http://weblab.cs.uml.edu/~cnevers/a3/HW3_sourceCode/index.html">Assignment 3</a>
             <a href="http://weblab.cs.uml.edu/~cnevers/">Assignment 4</a>
             <a href=".">Assignment 5</a>
-          </div>
         </div>
-        <div class="section">
-          <h2>Projects</h2>
-          <p>
+    </div>
+    <div id="Projects" class="section">
+        <h1>Projects</h1>
+        <p>
             I'm usually always working on a programming project.
-            Two of my larger projects are:
-          </p>
-          <div class="center">
-              <ul class="list centered no-bullets">
-                  <li><b><a class="no-dec" href="https://github.com/chrisnevers/chord-analyzer">Musical Chord Analyzer</a></b></li>
-                  <li><b><a class="no-dec" href="https://github.com/chrisnevers/racket-compiler">Racket Compiler</a></b></li>
-              </ul>
-          </div>
-        </div>
+            Two of my larger projects are a
+            <a class="no-dec" href="https://github.com/chrisnevers/chord-analyzer">Musical Chord Analyzer</a>
+            and a
+            <a class="no-dec" href="https://github.com/chrisnevers/racket-compiler">Racket Compiler</a>
+        </p>
         <div class="section">
             <h2>Musical Chord Analyzer</h2>
+            <h4><i>written in Python</i></h4>
             <ul class="list">
                 <li>Scrapes artist/song chord data from online</li>
                 <li>Determines the key of a song</li>
@@ -76,19 +77,42 @@
                 <li>Generates a visual directed graph of chord changes</li>
                 <li>Generates random chord progressions (of any length) in the style of the selected artist/song</li>
             </ul>
-          </div>
-        <div class="double-section">
-          <img class="img" alt="sun king graph" src="assets/img/sun_king_graph.png"/>
-          <p>Here is a directed graph of the chord changes in "Sun King" by The Beatles.</p>
+            <img class="img" alt="sun king graph" src="assets/img/sun_king_graph.png"/>
+            <p>Here is a directed graph of the chord changes in "Sun King" by The Beatles.</p>
+        </div>
+        <div class="section">
+            <h2>Racket Compiler</h2>
+            <h4><i>written in OCaml</i></h4>
+            <ul class="list">
+                <li>Implemented a compiler for a Turing-complete subset of Racket</li>
+                <li>Stop and copy garbage collection</li>
+                <li>Register allocation</li>
+                <li>First class, mutually recursive functions</li>
+                <li>Vectors (tuples)</li>
+            </ul>
         </div>
       </div>
     </div>
-    <p>
-      <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-            alt="Valid CSS!" />
-        </a>
-    </p>
-  </body>
+    <div id="Music" class="section">
+        <h1>Music</h1>
+        <p>
+            I enjoy writing, playing, and transcribing music, particularly jazz,
+            classical, and indie-ish(?) rock.
+            This section will be used to uploaded chord charts/tabs for
+            some of my songs.
+        </p>
+        <audio controls>
+          <source src="assets/audio/new40.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div class="section">
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+            </a>
+        </p>
+    </div>
+</body>
 </html>

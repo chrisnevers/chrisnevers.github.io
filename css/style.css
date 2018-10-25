@@ -1,178 +1,114 @@
-/*
-  Christopher Nevers - Christopher_Nevers@student.uml.edu
-  COMP 4610: GUI Programming I - Assignment 4
-  Created: 10/09/2018
-  File: style.css
-  This file is used to style my home page for assignment 2.
- */
-
-/* Mobile First CSS Styling below */
-
-/*
-  Wrapper for the page's content
-  Purpose: To center all inner content
-*/
-.wrapper {
-  width: 80%;
-  min-height: 100vh;
-  margin: 0 auto;
-  font-family: sans-serif;
-  font-weight: lighter;
-  text-align: center;
-  background-color: whitesmoke;
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
-/* All sections are grids with two per row */
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
-  max-width: 80%;
+nav {
+    background:  whitesmoke;
+    padding: 10px 0;
+    text-align: left;
 }
 
-/*
-  Wraps all text in the header
-  Purpose: To vertically align text in header div
-*/
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav li a {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
 .header-text-wrapper {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 5px;
+    display: inline-block;
+    padding-left: 5px;
 }
 
-/*
-  Purpose: To style the large text in the header
-*/
 .header-text-lg {
-  font-size: 1.5em;
-  font-weight: normal;
-  margin: 0 0;
+    font-size: 1.5em;
+    font-weight: normal;
 }
 
-/*
-  Purpose: To style the small text in the header
-*/
 .header-text-sm {
-  margin: 0 0;
-  font-weight: lighter;
+    font-weight: lighter;
 }
 
-/*
-  Purpose: To vertically align the header photo and make it a circle
-*/
+.header-text-xs {
+    font-size: medium;
+    font-weight: lighter;
+}
+
 .header-photo {
-  max-height: 160px;
-  border-radius: 50%;
-  vertical-align: middle;
+    max-height: 160px;
+    border-radius: 50%;
+    vertical-align: middle;
 }
 
-/*
-  Purpose: Sets the background and text color of the header
-*/
-.header {
-  background: linear-gradient(to right, #1a2129, #474747);
-  padding: 20px;
-  color: white;
-}
-
-/*
-  Purpose: Center all text in page sections
-*/
 .section {
-  padding: 20px;
-  text-align: center;
-  margin: 0 auto;
+    grid-column: 1/2;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0px 50px 0px;
 }
 
-/*
-  Purpose - Add spacing around the paragraphs to increase readability.
-*/
-.section p {
-  padding: 10px 10px;
-  line-height: 30px;
-  margin: 0 auto;
+.section:not(:last-child) {
+    border-bottom: 1px solid darkgray;
 }
 
-/*
-  Purpose: To space the assignment links in the coursework section
-*/
-.coursework a {
-  display: block;
-  padding-bottom: 5px;
-}
-
-/*
-  Purpose: To make the text purrty ;)
-*/
-h2 {
-  font-weight: lighter;
-  padding-bottom: 20px;
-  border-bottom: 1px solid black;
-}
-
-/*
-  Purpose - Get rid of default hardcoded pixel width of audio element
-*/
-audio {
-  width: 100%;
-}
-
-/*
-  Purpose - Put white background box around assignments
-*/
-.assignment-links {
-  display: grid;
-  border: 1px solid black;
-  background: white;
-  padding-bottom: 15px;
-}
-
-/*
-  Purpose - Space the links and do not add underlines
-*/
-.assignment-links a {
-  padding-top: 15px;
-  text-decoration: none;
-}
-
-/* Fit image in parent */
 .img {
-  width: 100%;
+    width: 100%;
 }
 
-/* Section will take up a whole row */
-.double-section {
-  grid-column: 1/3;
+.info {
+    grid-column: 2;
+    grid-row: 1/10;
+    background-color: whitesmoke;
+    padding-top: 80px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
 }
 
-/* Align text to the left in lists */
-.list {
-  text-align: left;
+.icon {
+    height: 32px;
+    width: auto;
 }
 
-/* Space items in a list */
-.list li {
-  margin-bottom: 5px;
+.email {
+    color: rgb(104, 188, 236);
 }
 
-/* List bullets will be aligned inside their box */
-.inset {
-  list-style-position: inside;
+.icon-row {
+    padding-top: 10px;
 }
 
-/* Centers divs */
-.center {
-  display: inline-block;
-  margin: 0 auto;
+.section p {
+    width: 80%;
+    line-height: 2em;
+    margin: 0 auto;
 }
 
-/* Links will not be underlined */
-.no-dec {
-  text-decoration-line: none;
-  color: black;
+ul li {
+    text-align: left;
 }
 
-/* List items will not have bullets */
-.no-bullets {
-  list-style-type: none;
+h4 {
+    margin-top: 0px;
+}
+.scale-height {
+    height: 50%;
+}
+
+audio {
+    padding-top: 20px;
+    width: 75%;
 }
