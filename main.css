@@ -6,11 +6,11 @@ body {
 
 h1 {
     font-family: 'Playfair Display', serif;
+    padding-left: 10px;
 }
 
-.indent {
-    padding-left: 2em;
-    /* font-family: 'Indie Flower', cursive; */
+p {
+    padding: 0px 10px;
 }
 
 h3 {
