@@ -1,2 +1,0 @@
-# home
-personal web site
