@@ -1,0 +1,78 @@
+body {
+  font-family: 'Cutive Mono', monospace;
+}
+
+.navbar {
+  border-bottom: 1px solid #6c757d;
+}
+
+.profile-pic {
+  width: auto;
+  max-height: 300px;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: .25rem;
+  border: 1px solid #6c757d;
+}
+
+.section {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.about-me {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icon {
+  max-height: 25px;
+  max-width: 25px;
+  padding: 0 .25rem;
+  display: inline;
+}
+
+.img-wrapper {
+  max-height: 200px;
+  max-width: 200px;
+  width: 75%;
+  margin: 0 auto;
+  padding: 15px 0px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.card {
+  flex: 1 1 100%;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-overflow: ellipsis;
+}
+
+.text {
+  margin: 0 auto;
+}
+
+.header {
+  padding: 15px 0px;
+  margin: 0px;
+}
+
+.link-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  width: 100%;
+}
