@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import './index.scss'
 import React from "react"
-import Navbar from './Navbar'
-import Projects from './Projects'
+import Navbar from '../components/Navbar'
+import Projects from '../components/Projects'
 
 class Index extends React.Component {
   render() {

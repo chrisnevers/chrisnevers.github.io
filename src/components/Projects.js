@@ -59,6 +59,18 @@ const projects = [{
     }
   ],
   img: 'img/ocaml.png'
+},
+{
+  title: 'Scheme Interpreter',
+  description: 'An implementation of a Scheme interpreter, as described in ' +
+    'Write Yourself a Scheme. Implemented in Haskell.',
+  links: [
+    {
+      title: 'Source Code',
+      href: 'https://github.com/chrisnevers/scheme-interpreter'
+    }
+  ],
+  img: 'img/haskell.png'
 }
 ]
 
