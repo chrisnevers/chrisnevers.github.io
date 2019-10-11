@@ -12,7 +12,7 @@ export default (props) => {
       </div>
       <div className="col-xs-12 col-sm-6 link-wrapper">
         <div className="img-wrapper">
-          <img className="img" src={project.img}/>
+          <img className="img" alt="lang-logo" src={project.img}/>
         </div>
         <div className="links row">
           {project.links.map(link => (
