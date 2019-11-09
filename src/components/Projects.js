@@ -20,6 +20,24 @@ const projects = [{
   img: 'img/ocaml.png'
 },
 {
+  title: 'OCamline',
+  description: 'An OCaml library that provides a simple interface for ' +
+    'reading user input. This project is particularly useful for REPLs. ' +
+    'The user may specifiy brackets that must be closed before accepting ' +
+    'input.',
+  links: [
+    {
+      title: 'OPAM Package',
+      href: 'https://opam.ocaml.org/packages/ocamline/'
+    },
+    {
+      title: 'Source Code',
+      href: 'https://github.com/chrisnevers/ocamline'
+    }
+  ],
+  img: 'img/ocaml.png'
+},
+{
   title: 'Racket Compiler',
   description: 'A compiler for a statically typed language that produces x86 ' +
     'assembly. Features include: hygienic macros, garbage collection, ' +
@@ -81,7 +99,7 @@ export default () => {
         <h1>Projects</h1>
       </div>
       {projects.map(project => (
-        <Card project={project} />
+        <Card key={project.title} project={project} />
       ))}
     </div>
   );

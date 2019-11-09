@@ -3,7 +3,7 @@ import React from "react"
 export default (props) => {
   const { project } = props;
   return (
-    <div class="bg-light row card">
+    <div className="row card">
       <div className="col-xs-12 col-sm-6">
         <h3 className="header">{project.title}</h3>
         <p className="text">
@@ -17,6 +17,7 @@ export default (props) => {
         <div className="links row">
           {project.links.map(link => (
             <a
+              key={link.href}
               className="col-xs-6 text"
               href={link.href}
             >

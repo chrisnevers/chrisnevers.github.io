@@ -26,8 +26,9 @@ export default () => {
       </div>
       <div className="album-wrapper">
       {albums.map(album =>
-        <iframe title={album.title} style={{border: 0, height: '42px', width: '100%' }}
-          src={album.src} seamless>
+        <iframe key={album.title} title={album.title} src={album.src}
+          style={{border: 0, height: '42px', width: '100%' }}
+          seamless>
           <a href={album.href}>{album.title}</a>
         </iframe>
       )}
