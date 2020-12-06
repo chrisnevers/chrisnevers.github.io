@@ -9,16 +9,16 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Fira Sans Condensed`,
-            subsets: [`latin`],
-          },
-        ],
-      },
-    }
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Fira Sans Condensed`,
+    //         subsets: [`latin`],
+    //       },
+    //     ],
+    //   },
+    // }
   ]
 }
