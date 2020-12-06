@@ -29,7 +29,7 @@ const albums = [
 
 export default () => {
 	return (
-		<div className="section row col-xs-12">
+		<div className="section">
 			<div className="col-lg-12">
 				<h1>Music</h1>
 			</div>

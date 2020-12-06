@@ -1,5 +1,5 @@
 body {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .navbar {
@@ -16,19 +16,34 @@ body {
 }
 
 .section {
-  margin: 0 auto;
   padding: 2rem;
   text-align: left;
-  max-width: 750px;
 }
 
 .about-me {
-  align-items: center;
-  justify-content: space-evenly;
+  // max-width: 30%;
+  // margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: 915px) {
+  .about-me {
+    max-width: 30%;
+    position: fixed;
+  }
+}
+
+blockquote p {
+  color: darkgray;
+}
+
+.info-text {
+  min-width: 100%;
+  padding-top: 6vh;
 }
 
 .about-me-text {
-  min-width: 300px;
+  padding-top: 2vh;
 }
 
 .icon {

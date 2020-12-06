@@ -14,7 +14,7 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Cutive Mono`,
+            family: `Fira Sans Condensed`,
             subsets: [`latin`],
           },
         ],

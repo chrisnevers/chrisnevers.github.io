@@ -94,7 +94,7 @@ const projects = [{
 
 export default () => {
   return (
-    <div className="section row col-xs-12 col-sm-8">
+    <div className="section">
       <div className="col-lg-12">
         <h1>Projects</h1>
       </div>
