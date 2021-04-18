@@ -14,10 +14,10 @@ class Container extends React.Component {
           <link rel="canonical" href="https://chrisnevers.github.io/" />
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet"/>
+          <link rel="stylesheet" href="/img/index.css"/>
+          <link rel="stylesheet" href="/img/music.css"/>
         </Helmet>
         <div className="row">
-          <link rel="stylesheet" href="/css/index.css"/>
-          <link rel="stylesheet" href="/css/music.css"/>
           <Navbar />
           {this.props.children}
         </div>
