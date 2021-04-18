@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import Projects from '../components/Projects';
 import Music from '../components/Music';
@@ -19,7 +18,7 @@ const Index = () => {
 							and statically typed, functional programming languages. I graduated from UMass Lowell
 							with a Bachelors in Computer Science. In my free time,
 							I enjoy composing/playing music on guitar and piano, reading
-							philosophy and poetry, and spending time with my bunnies 🐰
+							philosophy and poetry, and spending time with my bunnies 🐰 test
 						</p>
 					</div>
 					<Music />
