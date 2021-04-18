@@ -102,7 +102,6 @@ blockquote p {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr;
-  row-gap: 15px;
-  justify-items: center;
+  row-gap: 25px;
+  justify-items: left;
 }
-

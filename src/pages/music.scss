@@ -1,0 +1,16 @@
+.chord-info {
+  display: grid;
+  grid-template-columns: max-content;
+  width: 100%;
+  row-gap: 25px;
+  justify-items: left;
+  padding-bottom: 20px;
+}
+
+.lyrics {
+  display: grid;
+  width: 100%;
+  row-gap: 10px;
+  justify-items: left;
+  font-style: italic;
+}
