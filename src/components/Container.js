@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import Navbar from './Navbar';
 import { Helmet } from 'react-helmet';
+import '../pages/index.scss';
 
 class Container extends React.Component {
   render() {
