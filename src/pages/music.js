@@ -2,12 +2,22 @@ import React from 'react';
 import './index.scss';
 import './music.scss';
 import Container from '../components/Container';
+import Music from '../components/Music';
 import { info } from '../components/songs';
 
 const repeat = (len, s) => s.repeat(len);
 
 
 const musicInfo = ({ location }) => {
+  if (!location.state) {
+    return (
+      <Container>
+        <div className="col-xs-12 col-sm-12 col-md-8">
+          <Music/>
+        </div>
+      </Container>
+    );
+  }
   const songInfo = info[location.state.album][location.state.song];
   return (
     <Container>
