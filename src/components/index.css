@@ -1,0 +1,105 @@
+body {
+  font-family: 'Fira Sans Condensed', sans-serif !important;
+}
+
+.navbar {
+  border-bottom: 1px solid #6c757d !important;
+}
+
+.profile-pic {
+  width: auto !important;
+  max-height: 300px !important;
+  max-width: 300px !important;
+  margin: 0 auto !important;
+  padding: .25rem !important;
+  border: 1px solid #6c757d !important;
+}
+
+.section {
+  padding: 2rem !important;
+  text-align: left !important;
+}
+
+.about-me {
+  text-align: center !important;
+}
+
+@media (min-width: 915px) {
+  .about-me {
+    max-width: 30%!important ;
+    position: fixed!important ;
+  }
+}
+
+blockquote p {
+  color: darkgray !important;
+}
+
+.info-text {
+  min-width: 100% !important;
+  padding-top: 6vh !important;
+}
+
+.about-me-text {
+  padding-top: 2vh !important;
+}
+
+.icon {
+  max-height: 25px !important;
+  max-width: 25px !important;
+  padding: 0 .25rem !important;
+  display: inline !important;
+}
+
+.img-wrapper {
+  max-height: 200px !important;
+  max-width: 200px !important;
+  width: 75% !important;
+  margin: 0 auto !important;
+  padding: 15px 0px !important;
+}
+
+.img {
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 auto !important;
+}
+
+.card {
+  flex: 1 1 100% !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  padding-bottom: 15px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  text-overflow: ellipsis !important;
+  border: none !important;
+}
+
+.text {
+  margin: 0 auto !important;
+}
+
+.header {
+  padding: 15px 0px !important;
+  margin: 0px !important;
+}
+
+.link-wrapper {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.links {
+  width: 100% !important;
+}
+
+.album-wrapper {
+  display: grid !important;
+  width: 100% !important;
+  grid-template-columns: 1fr !important;
+  row-gap: 25px !important;
+  justify-items: left !important;
+}
