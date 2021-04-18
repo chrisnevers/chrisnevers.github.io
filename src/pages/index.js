@@ -1,4 +1,3 @@
-import './index.scss';
 import React from 'react';
 import Projects from '../components/Projects';
 import Music from '../components/Music';

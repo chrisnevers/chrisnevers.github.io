@@ -1,4 +1,3 @@
-import '../pages/index.scss';
 import React from 'react'
 
 class Navbar extends React.Component {

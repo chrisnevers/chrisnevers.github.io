@@ -1,4 +1,3 @@
-import '../pages/index.scss';
 import React from 'react';
 import Navbar from './Navbar';
 import { Helmet } from 'react-helmet';
@@ -11,11 +10,14 @@ class Container extends React.Component {
           <meta charSet="utf-8" />
           <meta name="description" content="Chris Nevers : Software Engineer" />
           <title>Chris Nevers</title>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
           <link rel="canonical" href="https://chrisnevers.github.io/" />
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet"/>
         </Helmet>
         <div className="row">
+          <link rel="stylesheet" href="/css/index.css"/>
+          <link rel="stylesheet" href="/css/music.css"/>
           <Navbar />
           {this.props.children}
         </div>
