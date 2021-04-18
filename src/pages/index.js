@@ -1,8 +1,8 @@
+import './index.scss';
 import React from 'react';
 import Projects from '../components/Projects';
 import Music from '../components/Music';
 import Container from '../components/Container';
-import './index.scss';
 
 const Index = () => {
 		return (
@@ -17,8 +17,9 @@ const Index = () => {
 							I am particularly interested in compilers
 							and statically typed, functional programming languages. I graduated from UMass Lowell
 							with a Bachelors in Computer Science. In my free time,
-							I enjoy composing/playing music on guitar and piano, reading
-							philosophy and poetry, and spending time with my bunnies 🐰 testing
+							I enjoy composing/playing music on guitar and piano. I'm really
+							interested in harmony and writing cool non-diatonic progressions.
+							I also like reading philosophy, horror & poetry, and spending time with my bunnies 🐰
 						</p>
 					</div>
 					<Music />

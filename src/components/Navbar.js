@@ -1,12 +1,12 @@
-import React from 'react'
 import '../pages/index.scss';
+import React from 'react'
 
 class Navbar extends React.Component {
   render() {
     return (
       <div className="section col-xs-12 col-sm-12 col-md-4">
         <div className="about-me">
-          <img alt="me" className="col-xs-12 col-sm-6 profile-pic" src="img/me.jpg" />
+          <img alt="me" className="col-xs-12 col-sm-6 profile-pic" src="/img/me.jpg" />
           <div className="col-xs-12 col-sm-6 info-text">
             <h1>Chris Nevers</h1>
             <figure className="section">
@@ -16,16 +16,16 @@ class Navbar extends React.Component {
             </figure>
             <div id="info" className="info">
               <a href="https://github.com/chrisnevers">
-                <img alt="GitHub" src="img/github.svg" className="icon"/>
+                <img alt="GitHub" src="/img/github.svg" className="icon"/>
               </a>
               <a href="https://www.linkedin.com/in/christophernevers/">
-                <img alt="LinkedIn" src="img/linkedin.png" className="icon"/>
+                <img alt="LinkedIn" src="/img/linkedin.png" className="icon"/>
               </a>
               <a href="https://www.instagram.com/chrisnevers/">
-                <img alt="Instagram" src="img/instagram.png" className="icon"/>
+                <img alt="Instagram" src="/img/instagram.png" className="icon"/>
               </a>
               <a href="img/resume.pdf">
-                <img alt="Resume" src="img/resume.svg" className="icon"/>
+                <img alt="Resume" src="/img/resume.svg" className="icon"/>
               </a>
             </div>
           </div>
