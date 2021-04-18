@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import './index.scss';
 import React from 'react';
 import Projects from '../components/Projects';
 import Music from '../components/Music';
 import Container from '../components/Container';
+import './index.scss';
 
 const Index = () => {
 		return (
