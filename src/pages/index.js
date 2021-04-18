@@ -18,7 +18,7 @@ const Index = () => {
 							and statically typed, functional programming languages. I graduated from UMass Lowell
 							with a Bachelors in Computer Science. In my free time,
 							I enjoy composing/playing music on guitar and piano, reading
-							philosophy and poetry, and spending time with my bunnies 🐰 test
+							philosophy and poetry, and spending time with my bunnies 🐰 testing
 						</p>
 					</div>
 					<Music />
