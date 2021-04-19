@@ -95,7 +95,7 @@ export const info = {
         {
           'section': 'Solo',
           'chords': [
-            ['A', 'F#m', 'G#m', 'F#m'],
+            ['A', 'F#m', ['G#m', 'Gm'], 'F#m'],
             [['G#m', 'G#'], [], [], []]
           ],
         },
@@ -123,7 +123,7 @@ export const info = {
         `Don't lie anymore`,
         ``, ``,
         `Don't beg`,
-        `You know there's nothing thing left`,
+        `You know there's nothing left`,
         ``, ``,
         `Though life is empty`,
         `You don't need me`,
