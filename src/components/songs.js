@@ -1,4 +1,168 @@
 export const info = {
+  'untitled 7': {
+    'out of nowhere': {
+      'lyrics': [
+        `Something's in my head`,
+        `that I don't understand.`,
+        `It came out of nowhere,`,
+        `now it has the upper hand.`,
+        ``,``,
+        `I try to hide it away,`,
+        `but now that you can tell,`,
+        `it's obvious that I haven't been myself`,
+        ``,``,
+        `Something's in my head`,
+        `that I don't understand.`,
+        `It came out of nowhere,`,
+        `now it has the upper hand.`,
+        ``,``,
+        `It's not a mental disease`,
+        `it's a product of how I see things.`,
+        `It's not a mental disease,`,
+        `it's a product of how I see things,`,
+        `how I see you,`,
+        `and how I see me.`
+      ],
+      'chords': [
+        {
+          'section': 'Verse',
+          'chords': [
+            ['Em7', 'G/D', 'CΔ7', ['GΔ7/B', 'D#Δ7']]
+          ]
+        },
+        {
+          'section': 'Chorus',
+          'chords': [
+            ['Em7', 'F#m11b5', 'GΔ7', 'Am9']
+          ]
+        }
+      ],
+      'iframeUrl': `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1135180771&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`,
+    },
+    "i don't understand": {
+      'lyrics': [
+        `Sometimes I feel`,
+        `like a bother to you.`,
+        `The wind in my face`,
+        `blows me farther from you.`,
+        ``,``,
+        `You love to see the damage done.`,
+        `Every word you said was just for fun.`,
+        `You take pride in the fact you don't need anyone,`,
+        `but I do...`,
+        ``,``,
+        `I don't want to lay in bed`,
+        `wishing I was—`,
+        `Something's in my head`,
+        `that I don't understand.`,
+        ``,``,
+        `You love to see the damage done.`,
+        `Every word you said was just for fun.`,
+        `You take pride in the fact you don't need anyone,`,
+        `but I do...`
+      ],
+      'chords': [
+        {
+          section: 'Verse',
+          chords: [
+            ['Am7', 'Am6', 'FΔ7', 'F#m7b5'],
+            ['Am7', 'Bm7', 'FΔ7', 'F#m7b5'],
+          ]
+        },
+        {
+          section: 'Bridge',
+          chords: [
+            ['C', 'A7sus4', 'D9', 'D9'],
+            ['F', 'Fm6', 'C', 'C7']
+          ]
+        },
+        {
+          section: 'Chorus',
+          chords: [
+            ['Am', 'Am/G', 'D7', 'E7'],
+            ['F', 'Fm6', 'C', [`\\G`, `\\F#`]],
+          ]
+        }
+      ],
+      'iframeUrl': `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1135180573&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`,
+    },
+    'love understands': {
+      'lyrics': [
+        `I just need a friend who knows`,
+        `when things seem fine, I'm really low.`,
+        `Cause I would be dragged to hell`,
+        `before I ever ask for help.`,
+        ``,``,
+        `They say,`,
+        `everybody loves you,`,
+        `and love always understands.`,
+        `Everybody loves you,`,
+        `though it may not feel that way.`,
+        ``,``,
+        `How am I not to blame?`,
+        `Why do I feel this pain?`,
+        `Who made life go this way?`,
+        `How do I snuff this flame?`,
+        ``, ``,
+        `Everybody loves you,`,
+        `and love always understands.`,
+        `Everybody loves you,`,
+        `at least that's what they say.`
+      ],
+      'chords': [
+        {
+          'section': 'Verse',
+          'chords': [
+            ['Am', 'Em', 'F', 'C'],
+            ['Bb', 'F', 'C', 'C'],
+          ]
+        },
+        {
+          'section': 'Chorus',
+          'chords': [
+            ['Gm', 'F', 'C', 'C']
+          ]
+        }
+      ],
+      'iframeUrl': `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1057037284&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`,
+    },
+    'pass me by': {
+      'lyrics': [
+        `Maybe I'm broken`,
+        `from when you left.`,
+        `The words unspoken,`,
+        `hidden from my breath.`,
+        ``, ``,
+        `You've never heard,`,
+        `but I'll never forget.`,
+        ``,
+        ``,
+        `Despite the dreams`,
+        `I've had of you and I.`,
+        `I know you won't turn back,`,
+        `you've passed me by.`,
+        ``, ``,
+        `You've passed me by.`
+      ],
+      'chords': [
+        {
+          'section': 'Verse',
+          'chords': [
+            ['C', 'C/G', 'C/F', 'C/F'],
+            ['Am','Am/G', 'C', 'C']
+          ]
+        },
+        {
+          'section': 'Chorus',
+          'chords': [
+            ['F', 'Em', 'Am', 'Am/G'],
+            ['F','Em', 'D7', 'D7']
+          ]
+        }
+      ],
+      'iframeUrl': `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1135180291&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`
+    }
+  },
   'untitled 6': {
     'falling down': {
       'lyrics': [

@@ -4,6 +4,11 @@ import { info } from './songs';
 
 const albums = [
 	{
+		src: `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1325507485&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`,
+		href: `https://soundcloud.com/chrisnevers/sets/untitled-7`,
+		title: `untitled 7`,
+	},
+	{
 		src: `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1243865296&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`,
 		href: `https://soundcloud.com/chrisnevers/sets/untitled-6`,
 		title: `untitled 6`,

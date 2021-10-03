@@ -2,7 +2,6 @@ import React from 'react';
 
 export default (props) => {
 	const { project } = props;
-	let x = 4 + 6;
 	return (
 		<div className="row card">
 			<div className="col-xs-12 col-sm-6">
