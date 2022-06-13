@@ -4,6 +4,11 @@ import { info } from './songs';
 
 const albums = [
 	{
+		src: `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1197392800&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`,
+		href: `https://soundcloud.com/chrisnevers/fly`,
+		title: `untitled 8`,
+	},
+	{
 		src: `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1325507485&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`,
 		href: `https://soundcloud.com/chrisnevers/sets/untitled-7`,
 		title: `untitled 7`,
@@ -58,7 +63,9 @@ export default () => {
 							key={album.title}
 							title={album.title}
 							src={album.src}
-							style={{ border: 0, height: (i === albums.length - 1) ?  '45px' : '350px', width: '100%' }}
+							style={{ border: 0, height: (i === albums.length - 1) ?  '45px'
+																					: (album.title == 'untitled 8') ? '190px'
+																					: '350px', width: '100%' }}
 							seamless
 						>
 							<a href={album.href}>{album.title}</a>

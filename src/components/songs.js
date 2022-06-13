@@ -1,4 +1,62 @@
 export const info = {
+  'untitled 8': {
+    'fly': {
+      'lyrics': [
+        'Am I right to want',
+        'what it is I want?',
+        'Am I wrong to think',
+        'all hope is lost?',
+        ``,``,
+        `If you don't want me`,
+        `don't say you do`,
+        `Don't pull my strings`,
+        `like I'm a balloon`,
+        ``,``,
+        `Cut me loose to fly away`,
+        `Cut me loose today`,
+        ``,``,
+        `Well it's true`,
+        `I want to be held by you`,
+        `But the things you do`,
+        `make me so confused`,
+        ``,``,
+        `Know, I am not`,
+        `this shade of blue`,
+        `I'm just a reflection`,
+        `of you`,
+        ``,``,
+        `Cut me loose to fly away`,
+        `Cut me loose today`,
+        ``,``
+      ],
+      'chords': [
+        {
+          'section': 'Intro/Bridge',
+          'chords': [
+            ['Bbm', `Bbm/F#`, `Bbm/G`, `Bbm/F#`],
+            ['DbΔ7', `Abm6`]
+          ]
+        },
+        {
+          'section': 'Verse',
+          'chords': [
+            ['Bbm', 'Bbm9/Ab', 'Ebm/Gb', 'Db'],
+            ['Gm7b5', 'Gm7b5/Bb'],
+            ['Dm7b5', 'Db#11'],
+            ['Ab', 'G11']
+          ]
+        },
+        {
+          'section': 'Chorus',
+          'chords': [
+            ['Ebm', 'Ebm/Db', 'Ab/C', '-'],
+            ['Db', 'Dbadd2', 'Gb#11', '-']
+          ]
+        }
+      ],
+      'iframeUrl': `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1197392800&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`,
+    }
+  },
   'untitled 7': {
     'out of nowhere': {
       'lyrics': [
